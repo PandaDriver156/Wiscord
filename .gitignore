@@ -1,0 +1,23 @@
+# Node.js modules 
+node_modules/
+
+# Config
+config.js
+
+# Logs
+logs/
+
+# Data for the Wiscord API (database, images, etc.)
+data/
+
+# Cerificates
+certificate/
+
+# Visual Studio Code settings
+.vscode/
+
+# Changelog
+CHANGELOG.md
+
+# Executable
+dist/

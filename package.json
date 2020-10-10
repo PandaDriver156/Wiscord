@@ -1,0 +1,28 @@
+{
+  "name": "wiscord",
+  "version": "0.1.3",
+  "description": "Chat platform inspired by Discord",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "node src/build.js",
+    "changelog": "node src/modules/changelog.js unreleased",
+    "lint": "eslint src",
+    "start": "node ."
+  },
+  "author": "PandaDriver (https://github.com/PandaDriver156)",
+  "license": "MIT",
+  "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "selfsigned": "^1.10.8",
+    "sequelize": "^6.3.5",
+    "sqlite3": "^5.0.0",
+    "ws": "^7.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "nexe": "^3.3.7"
+  }
+}
