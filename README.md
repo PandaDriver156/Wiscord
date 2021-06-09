@@ -1,27 +1,24 @@
 # Wiscord
 
-A chat platform mainly inspired by [Discord](https://discord.com/), written in Node.js
+An open source reimplementation of [Discord](https://discord.com/)'s backend, written in Node.js
 
-Please note:
+# ⚠️ **It is not recommended to use Wiscord.**
 
-- Wiscord is in a very early state, you can't do anything other than logging in with an account.
-- This is only a hobby project, I can abandon its development at any time. Pull requests are always welcomed though.
+It's a project only made for fun and most features of Discord are _not_ implemented. If you want to run a Discord backend, please use [Litecord](https://gitlab.com/litecord/litecord) or [Fosscord](https://github.com/fosscord/fosscord) instead
 
-## Current features
+## Features
 
 - [x] Registering users
-- [] Guilds
-- [] Sending messages
+- [ ] Logging in (WIP)
+- [ ] Guilds
+- [ ] Sending messages
 
 ## Setting up
 
-### For production use
-You can grab the latest build from the [releases](https://github.com/PandaDriver156/Wiscord/releases) page
-
-### For development
 - Clone this repository [📋](https://github.com/PandaDriver156/Wiscord/archive/master.zip)
 - Install dependencies (`npm install`)
 - Run the app with `node .`
 
 ## Configuring Wiscord
-You can configure Wiscord by renaming [config.example.js](https://github.com/PandaDriver156/Wiscord/blob/master/config.example.js) and modifying it to your needs
+
+You can configure Wiscord by copying `config.example.js` to `config.js` and modifying it to your needs
